@@ -312,6 +312,10 @@ call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl")
 " fugitive higlighthing
 call <sid>hi("gitCommitSummary",  s:gui07, "", s:cterm07, "none", "none")
 
+" vim-indent-guides
+call <sid>hi("IndentGuidesOdd",  s:gui02, s:gui01, s:cterm02, s:cterm01, "")
+call <sid>hi("IndentGuidesEven", s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
+
 " Remove functions
 delf <sid>hi
 delf <sid>gui
