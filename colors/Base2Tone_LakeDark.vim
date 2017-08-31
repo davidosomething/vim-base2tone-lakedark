@@ -265,6 +265,9 @@ call <sid>hi("JavaScriptFuncExp",     s:gui07, "", s:cterm07, "", "")
 call <sid>hi("JavaScriptString",      s:gui07, "", s:cterm07, "", "")
 call <sid>hi("JavaScriptPrototype",   s:gui0C, "", s:cterm0C, "", "")
 
+" JavaScript my additions
+call <sid>hi("jsObjectKey",           s:gui05, "", s:cterm05, "", "")
+
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "")
 call <sid>hi("markdownError",             s:gui05, s:gui00, s:cterm05, s:cterm00, "")
