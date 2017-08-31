@@ -217,6 +217,8 @@ call <sid>hi("JavaScriptPrototype",   s:gui0C, "", s:cterm0C, "", "")
 
 " JavaScript my additions
 call <sid>hi("jsObjectKey",           s:gui05, "", s:cterm05, "", "")
+call <sid>hi("jsxTagName",            s:gui09, "", s:cterm09, "", "")
+call <sid>hi("jsxAttrib",             s:gui05, "", s:cterm05, "", "")
 
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "")
